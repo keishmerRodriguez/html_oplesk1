@@ -1,0 +1,184 @@
+body{
+    background-color: rgb(255, 255, 255);
+    overflow-x: hidden;
+    margin: 3%;
+    box-sizing: border-box;
+    z-index: 1;
+    padding: 5px;
+}
+
+.container{
+    position: static;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+@font-face {
+    font-family: Rudanueva;
+    src: url(/hack_4/letras/Ruda-Black.ttf)
+}
+
+@font-face {
+    font-family: Catamaran2;
+    src: url(/hack_4/letras/Catamaran-SemiBold.ttf);
+}
+
+@font-face {
+    font-family: snas2;
+    src: url(/hack_4/letras/OpenSans_Condensed-Regular.ttf);
+}
+
+.linea-1{
+    width: 10%;
+    background-color: black;
+    margin: 10px;
+    padding: 4px;
+    border-radius: 15px
+}
+
+h2 {
+    font-family: Rudanueva;
+    margin-top: 1%;
+    font-size: 20px;
+    text-transform: uppercase;
+    color: #000;
+
+}
+
+h1 {
+    font-family: Rudanueva;
+    margin: 0%;
+    font-size: 100px;
+    text-transform: uppercase;
+    color:  #B88940;
+    
+}
+
+h3{
+    font-family: Rudanueva;
+    margin: 1%;
+    font-size: 50px;
+
+}
+
+h4{
+    font-family: Catamaran2;
+    margin-top: 1%;
+    font-size: 30px;
+    letter-spacing: 10px;
+}
+
+
+.cajas{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    border: 0;
+    margin-top: 3%;
+    width: 90vw;
+
+}
+
+.caja{
+    background-color: rgb(243, 195, 124);
+    width: 80%;
+    margin: 1%;
+
+}
+
+.caja1{
+    padding: 1%;
+}
+
+.caja2 {
+    padding: 1%;
+    
+}
+
+.caja3 {
+    padding: 1%;
+}
+
+.caja4 {
+    padding: 1%;
+}
+
+.img{
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin: 5% ;
+}
+
+.img1{
+  margin-right: 2%;
+}
+
+.img2{
+   margin: 0%;
+}
+
+.img3{
+    margin-left: 2%;
+}
+
+.h-1{
+    font-family: sans2;
+    margin: 5%;
+    font-size: 60px;
+    text-transform: uppercase;
+    color:  #B88940;
+}
+
+.h-2{
+    font-family: Catamaran2;
+    font-size: 20px;
+    
+}
+
+@media (max-width: 768px) { 
+    .content {
+        font-size: 16px; 
+    }
+
+    h1 {
+        font-size: 2em; 
+    }
+
+    h2 {
+        font-size: 1.5em;
+    }
+
+    .caja-1, .caja-2, .caja-3, .caja-4 {
+        width: 100%; /
+    }
+}
+
+@media (max-width: 480px) { 
+    .content {
+        font-size: 14px; 
+    }
+
+    h1 {
+        font-size: 1.8em;
+    }
+
+    h2 {
+        font-size: 1.2em;
+    }
+}    
+

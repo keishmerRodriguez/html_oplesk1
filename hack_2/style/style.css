@@ -1,0 +1,74 @@
+body{ 
+    margin: 0; 
+    padding: 0;
+    background-color: rgb(225, 233, 233);
+    overflow-x: hidden;
+}
+
+.container{
+    display: block;
+    margin: 0;
+    padding: 0;
+    float: inline-end;
+}
+
+.caja-1{
+    background-color: rgb(173, 39, 39);
+    width: 100vw;
+    height: 20%;
+    padding: 5%
+}
+
+.caja-2{
+    background-color: rgb(0, 0, 0);
+    width: 100vw;
+    height: 20%;
+    padding: 5%
+}
+
+.caja-3 {
+    background-color: black;
+    float: left;
+    width: 60%;
+    height: 10%;
+    padding: 5%;
+    margin-top: 1%;
+}
+
+.caja-4{
+    background-color: black;
+    float: left;
+    width: 60%;
+    height: 10%;
+    padding: 5%;
+    margin-top: 1%;
+}
+
+.caja-5{
+    background-color: black;
+    float: left;
+    width: 60%;
+    height: 10%;
+    padding: 5%;
+    margin-top: 1%;
+}
+
+.caja-6{
+    background-color: black;
+    float: left;
+    width: 60%;
+    height: 10%;
+    padding: 5%;
+    margin-top: 1%;
+}
+
+.caja-7{
+    background-color: black;
+    float: left;
+    width: 80%;
+    height: 10%;
+    padding: 5%;
+    margin: 1%;
+    margin-top: 1%;
+    margin-left: 6%;
+}
